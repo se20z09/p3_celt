@@ -1,0 +1,1 @@
+# Text Samples for Project 3
