@@ -1,0 +1,20 @@
+A few lines of code embedded in the firmware is all it takes to offer multi-layer, virtually impenetrable protection for the world's hugely vulnerable Internet of Things (IoT) devices.
+
+Edge security specialist Exein, based in Rome and San Francisco, has developed what CEO Gianni Cuozzo describes as "the fastest security countermeasure ever built" - an open-source mathematical model that can detect threats autonomously at speeds significantly faster than any existing solution. 
+
+Platform agnostic, the Exein Core is a developer tool operating as an embedded component from within hardware. 
+Once grafted into firmware, Exein Core uses convolutional neural networking to learn the legitimate behaviours of a device. 
+Armed with that knowledge, it can then detect anomalies and external threats at unprecedented speeds without the need for cloud computing support.
+
+The potential for this world-changing product is enormous. 
+According to McKinsey, "the worldwide number of IoT-connected devices is projected to increase to 43 billion by 2023". 
+Others predict higher numbers: 100 per person, or one trillion by 2025. 
+Firmware is the Achilles Heel – a security soft spot that is typically awarded just 1% of protection budgets and continues to offer easy ingress for criminals.
+
+"It's not just about thwarting ransom threats," says Cuozzo. 
+"The exploitation of firmware can affect our safety too. Aviation, automobiles and home safety systems can all be targeted."
+"Exein Core, applied to the firmware of any and all IoT equipment at the manufacturing stage or retrofitted to existing devices, can stop such attacks."
+"This is a world-changing product that represents an entirely new way of approaching IT security."
+
+Crucial to the integrity of Exein Core's host-based defence mechanism is its open-source nature – a feature Cuotto champions with passion. 
+"I believe that the mathematical theory driving this innovation has the potential to make life safer," he says. 

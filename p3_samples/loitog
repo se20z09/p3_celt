@@ -1,0 +1,8 @@
+Developing software systems is inherently subject to errors that can later cause failures in production. 
+While testing can help to identify critical issues, it is limited to concrete inputs and states. 
+Exhaustive testing is infeasible in practice; hence we can never prove the absence of faults. 
+Symbolic execution, i.e., the process of symbolically reasoning about the program state during execution, can inspect the behavior of a system under all possible concrete inputs at run time. 
+It automatically generates logical constraints that match the program semantics and uses theorem provers to verify the existence of error states within the application. 
+This paper presents a novel symbolic execution engine called SymJEx, implemented on top of the multi-language Java Virtual Machine GraalVM. 
+SymJEx uses the Graal compiler's intermediate representation to derive and evaluate path conditions, allowing GraalVM users to leverage the engine to improve software quality. 
+In this work, we show how SymJEx finds non-trivial faults in existing software systems and compare our approach with established symbolic execution engines.
