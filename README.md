@@ -1,4 +1,4 @@
-# SE Project 1
+# [Project 3 Results](results.md)
 
 # C.E.L.T: The Sentimental Analyser 
 
