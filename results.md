@@ -19,35 +19,40 @@ The [Testing Protocol](Group%209%20-%20Testing%20Protocol.pdf) delineates the te
 - A Google Sheet for signing up for project participation.
 Google assessment form each candidate to provide 100% emotional polarity rating for 15 chosen text extracts.
 - Google Evaluation sheet to note evaluation time for each candidate.
-- C.E.L.T web based sentiment analyzer to assess sentime score for 15 sample texts.
+- CELT web based sentiment analyzer to assess sentime score for 15 sample texts.
 - MonkeyLearn generic sentiment analyzer [API](https://app.monkeylearn.com/main/classifiers/cl_pi3C7JiL/) to obtain emotional polarity rating for 15 sample texts.
+- [Testing Data](p3_data)
 
-## Observations
+## Evaluation
 ### Experimental Results
 #### Metrics
 * Each text sample was evaluated for percentage positive, neutral, and negative sentiment. The testers were instructed to evaluate samples in whatever manner those terms meant to them. This ranged from word choice to evoked emotion to punctuation use.
 * Both sentiment analyzer programs and all testers were timed to get a sense of total time to complete all samples as well as average time per sample, with a goal of evaluating efficiency.
 #### Analytical Results
-* As shown clearly in Figure 2, the two sentiment analyzer platforms differ greatly in their handling of neutral sentiment, such as one might find in an encyclopedia or reference material. CELT seems to greatly overestimate neutral tone relative to human subjects whereas MonkeyLearn greatly underestimates it.
-* Figures 1 and 3 give a compelling visual argument in favor of MonkeyLearn over CELT. MonkeyLearn seems to mimic human evaluation much more closely than CELT, particularly for passages with negative sentiment. We see very similar peaks and valleys on most questions, with MonkeyLearn matching the median tester evaluation exactly on several samples.
-#### Key Testing Observations
+Sentiment results are displayed in Figures 1-3. <br />
 
-### Survey Responses
-
-## Conclusions
-
-## Threats to Validity
-* Individual times for sample readings were not consistently captured for all testers, so it is impossible to determine if the length of the sample text and its order of presentation to the tester impacted the tester’s accuracy.
-* After reading some texts, few participants inclined towards skimming the rest of the texts. This could have affected the end cumulative results.
-* Experiments were conducted at different times according to the participants availability. There is a possibility that participants who volunteered for late sessions could’ve been affected by factors such as tiredness, boredom, hunger, competing class priorities, and inattention.
-* The small number of participants makes it hard to draw statistically significant conclusions. A greater number of samples and participants would be needed for a follow-up experiment.
-
-## Figures
 ![Positive Sentiment](p3_data/positive.png)<div align="center">Figure 1: Positive sentiment percentage for each text sample.</div>
 <br />
 ![Neutral Sentiment](p3_data/neutral.png)<div align="center">Figure 2: Neutral sentiment percentage for each text sample.</div>
 <br />
 ![Negative Sentiment](p3_data/negative.png)<div align="center">Figure 3: Negative sentiment percentage for each text sample.</div>
 <br />
+
+As shown clearly in Figure 2, the two sentiment analyzer platforms differ greatly in their handling of neutral sentiment, such as one might find in an encyclopedia or reference material. CELT seems to greatly overestimate neutral tone relative to human subjects whereas MonkeyLearn greatly underestimates it.   
+
+Figures 1 and 3 give a compelling visual argument in favor of MonkeyLearn over CELT. MonkeyLearn seems to mimic human evaluation much more closely than CELT, particularly for passages with negative sentiment. We see very similar peaks and valleys on most questions, with MonkeyLearn matching the median tester evaluation exactly on several samples.    
+
 ![Time Metrics](p3_data/time-metrics.png)<div align="center">Figure 4: Completion time information.</div>
 <br />
+
+Figure 4 does indicate a clear time advantage for automated sentiment analysis, which confirms the expected result -- automated analysis _should_ be much faster to perform than manual interpretation.
+
+### Threats to Validity
+* Individual times for sample readings were not consistently captured for all testers, so it is impossible to determine if the length of the sample text and its order of presentation to the tester impacted the tester’s accuracy.
+* After reading some texts, few participants inclined towards skimming the rest of the texts. This could have affected the end cumulative results.
+* Experiments were conducted at different times according to the participants availability. There is a possibility that participants who volunteered for late sessions could’ve been affected by factors such as tiredness, boredom, hunger, competing class priorities, and inattention.
+* The small number of participants makes it hard to draw statistically significant conclusions. A greater number of samples and participants would be needed for a follow-up experiment.
+* Due to the time constraints of the project, the blog link and audio sentiment analyzers were not evaluated.
+
+## Conclusion
+TODO: Summary paragraph
