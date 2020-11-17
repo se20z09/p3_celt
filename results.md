@@ -55,4 +55,4 @@ Figure 4 does indicate a clear time advantage for automated sentiment analysis, 
 * Due to the time constraints of the project, the blog link and audio sentiment analyzers were not evaluated.
 
 ## Conclusion
-TODO: Summary paragraph
+When compared to human testers and a commercial sentiment analyzer the CELT program is the clear outlier. This system consistently overestimates neutral tones in a huge variety of different text samples. Even ignoring the issues with neutral sentiment, CELT's positive/negative priority is opposite that of MonkeyLearn and the human subjects in six of fifteen samples. Across the three polarity dimensions, CELT averages 130.68% difference per question compared to human testers, while MonkeyLearn is almost half that at 67.07%. While this project has a good foundation, its analytical logic clearly needs refinement to bring it up to par with its commercial peers.
